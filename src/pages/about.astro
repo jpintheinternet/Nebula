@@ -1,5 +1,5 @@
 ---
-
+const pageTitle = "About Me";
 ---
 
 <html lang="en">
@@ -8,19 +8,19 @@
 		<link rel="icon" type="image/png+xml" href="/pse.png" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Nebula</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
         <a href="/">Home</a>
         <a href="/about/">About</a>
         <a href="/blog/">Blog</a>
 
-		<h1>About Me</h1>
+		<h1>{pageTitle}</h1>
 		<h2>... and my new Astro site!</h2>
 
         <p>I am using Astro's intro tutorial to build a website where I can post interesting facts about upcoming or past celestial events. This is the second page on my website, and it's the first one I'm figuring out for myself!</p>
 
-        <p>As I complete more of this tutorial, I will keep deploying the changes through Vercel.</p>
+        <p>As I complete more of this site, I will keep deploying the changes through Vercel.</p>
 		
 	</body>
 </html>
